@@ -1,0 +1,22 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@mixin make-margin($prefix, $properties, $identifier, $value) {
+  @include make-class(#{$prefix}-#{$identifier}) {
+    @each $property in $properties {
+      #{$property}: $value;
+    }
+  }
+}
+
+@include responsive {
+  @each $name, $value in $scssfold-margins {
+    @include make-margin('mb', 'margin-bottom', $name, $value);
+    @include make-margin('mt', 'margin-top', $name, $value);
+    @include make-margin('mr', 'margin-right', $name, $value);
+    @include make-margin('ml', 'margin-left', $name, $value);
+    @include make-margin('my', ('margin-top', 'margin-bottom'), $name, $value);
+    @include make-margin('mx', ('margin-left', 'margin-right'), $name, $value);
+  }
+}

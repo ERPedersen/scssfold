@@ -1,0 +1,11 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @for $i from 1 through $scssfold-flex-orders {
+    @include make-class(#{'order-'}#{$i}) {
+      order: $i;
+    }
+  }
+}

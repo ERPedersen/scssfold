@@ -1,0 +1,11 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @each $display in $scssfold-displays {
+    @include make-class(#{$display}) {
+      display: $display;
+    }
+  }
+}

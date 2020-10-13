@@ -1,0 +1,15 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+// Flex grow
+
+$scssfold-flex-grow: (0, 1) !default;
+
+@include responsive {
+  @each $value in $scssfold-flex-grow {
+    @include make-class(#{'flex-grow-'}#{$value}) {
+      flex-grow: $value;
+    }
+  }
+}

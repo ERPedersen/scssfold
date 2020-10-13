@@ -1,0 +1,11 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @each $position in $scssfold-positions {
+    @include make-class(#{$position}) {
+      position: $position;
+    }
+  }
+}

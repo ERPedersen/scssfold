@@ -1,0 +1,11 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @each $name, $value in $scssfold-flex-direction {
+    @include make-class(#{'flex-'}#{$name}) {
+      flex-direction: $value;
+    }
+  }
+}

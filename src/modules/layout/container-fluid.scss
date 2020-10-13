@@ -1,0 +1,14 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @include make-class('container-fluid') {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $scssfold-grid-gutter;
+    padding-right: $scssfold-grid-gutter;
+    width: 100%;
+    max-width: 100%;
+  }
+}

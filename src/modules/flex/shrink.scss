@@ -1,0 +1,11 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @each $value in $scssfold-flex-shrink {
+    @include make-class(#{'flex-shrink-'}#{$value}) {
+      flex-shrink: $value;
+    }
+  }
+}

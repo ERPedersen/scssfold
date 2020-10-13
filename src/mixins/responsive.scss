@@ -1,0 +1,12 @@
+@import '../config';
+
+@mixin responsive {
+  @content;
+  @each $breakpoint, $min in $breakpoints {
+    @media (min-width: $min) {
+      .#{$breakpoint}#{'\\:'} {
+        @content;
+      }
+    }
+  }
+}

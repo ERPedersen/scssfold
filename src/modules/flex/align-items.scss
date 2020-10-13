@@ -1,0 +1,13 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@if ($scssfold-module-flex == 1) {
+  @include responsive {
+    @each $name, $value in $scssfold-align-items {
+      @include make-class(#{'items-'}#{$name}) {
+        align-items: $value;
+      }
+    }
+  }
+}

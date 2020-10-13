@@ -1,0 +1,24 @@
+{
+  "name": "scssfold",
+  "version": "0.1.0",
+  "description": "A utility based scaffolding library written in SCSS",
+  "main": "src/index.scss",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine spec/index.js"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "scaffolding",
+    "utility",
+    "scssfold"
+  ],
+  "author": "Emil Rosenius",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.6.1",
+    "jasmine-spec-reporter": "^6.0.0",
+    "sass": "^1.27.0",
+    "sass-true": "^6.0.0"
+  }
+}

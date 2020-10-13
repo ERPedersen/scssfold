@@ -1,0 +1,21 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @for $i from 1 through $scssfold-flex-columns {
+    @include make-class(#{'col-'}#{$i}) {
+      padding-left: $scssfold-grid-gutter;
+      padding-right: $scssfold-grid-gutter;
+      flex: 0 0 percentage($i / $scssfold-flex-columns);
+    }
+  }
+}
+
+@include responsive {
+  @for $i from 1 through $scssfold-flex-columns {
+    @include make-class(#{'flex-pct-'}#{$i}) {
+      flex: 0 0 percentage($i / $scssfold-flex-columns);
+    }
+  }
+}

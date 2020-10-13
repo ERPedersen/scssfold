@@ -1,0 +1,13 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@if ($scssfold-module-flex == 1) {
+  @include responsive {
+    @each $name, $value in $scssfold-justify-self {
+      @include make-class(#{'justify-self-'}#{$name}) {
+        justify-items: $value;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @each $name, $value in $scssfold-flex-wrap {
+    @include make-class(#{'flex-wrap-'}#{$name}) {
+      flex-wrap: $value;
+    }
+  }
+}

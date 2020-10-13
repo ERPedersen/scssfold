@@ -1,0 +1,10 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @include make-class('row') {
+    margin-left: -$scssfold-grid-gutter;
+    margin-right: -$scssfold-grid-gutter;
+  }
+}

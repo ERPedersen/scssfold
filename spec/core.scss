@@ -1,0 +1,53 @@
+@import "node_modules/sass-true/sass/true";
+@import "src/mixins/responsive";
+@import "src/mixins/make-class";
+
+/**
+ * True Sass logs the output inside a .test-result class. Due to the nature
+ * of our mixin, which is context aware - we have defined the root attribute as `&test`
+ * instead of `.test`.
+ */
+
+@include describe('The responsive and make-class mixins') {
+  @include it('outputs the properties for each breakpoint.') {
+    @include assert {
+      @include output {
+        @include responsive {
+          @include make-class('color-orange') {
+            color: orange;
+          }
+        }
+      }
+      @include expect {
+        &color-orange {
+          color: orange;
+        }
+
+        @media (min-width: 768px) {
+          .sm\:color-orange {
+            color: orange;
+          }
+        }
+
+        @media (min-width: 991px) {
+          .md\:color-orange {
+            color: orange;
+          }
+        }
+
+        @media (min-width: 1280px) {
+          .lg\:color-orange {
+            color: orange;
+          }
+        }
+
+        @media (min-width: 1440px) {
+          .xl\:color-orange {
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+}
+
