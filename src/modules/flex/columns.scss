@@ -11,11 +11,3 @@
     }
   }
 }
-
-@include responsive {
-  @for $i from 1 through $scssfold-flex-columns {
-    @include make-class(#{'flex-pct-'}#{$i}) {
-      flex: 0 0 percentage($i / $scssfold-flex-columns);
-    }
-  }
-}

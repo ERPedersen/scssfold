@@ -1,0 +1,11 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@include responsive {
+  @for $i from 1 through $scssfold-flex-pct-columns {
+    @include make-class(#{'flex-pct-'}#{$i}) {
+      flex: 0 0 percentage($i / $scssfold-flex-pct-columns);
+    }
+  }
+}

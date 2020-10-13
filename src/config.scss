@@ -85,7 +85,8 @@ $scssfold-flex-sizes: (
   'none': none,
 ) !default;
 
-$scssfold-flex-columns: 12 !default;
+$scssfold-columns: 12 !default;
+$scssfold-flex-pct-columns: 12 !default;
 
 $scssfold-flex-direction: (
   'row': row,

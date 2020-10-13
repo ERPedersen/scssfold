@@ -18,5 +18,6 @@
     @include make-margin('ml', 'margin-left', $name, $value);
     @include make-margin('my', ('margin-top', 'margin-bottom'), $name, $value);
     @include make-margin('mx', ('margin-left', 'margin-right'), $name, $value);
+    @include make-margin('ma', ('margin-left', 'margin-right', 'margin-top', 'margin-bottom'), $name, $value);
   }
 }

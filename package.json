@@ -1,7 +1,11 @@
 {
   "name": "scssfold",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A utility based scaffolding library written in SCSS",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=4.0.0"
+  },
   "main": "src/index.scss",
   "scripts": {
     "test": "./node_modules/.bin/jasmine spec/index.js"
