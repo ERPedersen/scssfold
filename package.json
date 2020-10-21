@@ -17,12 +17,18 @@
     "utility",
     "scssfold"
   ],
-  "author": "Emil Rosenius",
+  "author": "Emil Rosenius <erp@emilrosenius.com> (https://emilrosenius.com/)",
   "license": "ISC",
   "dependencies": {
     "jasmine": "^3.6.1",
     "jasmine-spec-reporter": "^6.0.0",
     "sass": "^1.27.0",
     "sass-true": "^6.0.0"
+  },
+  "homepage": "https://github.com/ERPedersen/scssfold",
+  "bugs": "https://github.com/ERPedersen/scssfold/pulls",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ERPedersen/scssfold.git"
   }
 }
