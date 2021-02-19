@@ -1,5 +1,12 @@
 @mixin make-class($name) {
-  &#{if(&,'','.')}#{$name} {
-    @content;
+  @if & {
+    &#{$name} {
+      @content;
+    }
+  } @else {
+    #{'.'}#{$name} {
+      @content
+    }
   }
 }
+
