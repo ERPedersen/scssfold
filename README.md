@@ -31,7 +31,7 @@ Start by installing the package using either NPM or Yarn as specified below.
 
 ```bash
 $ yarn add scssfold
-$ npm install scssfold --save-dev
+$ npm install scssfold --save
 ```
 
 ## Include the package
