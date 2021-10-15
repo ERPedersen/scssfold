@@ -10,7 +10,7 @@
 @import '~scssfold/src/modules/layout/row';
 ```
 
-## Overrides
+## Customizing
 
 Override the following variables before including the module.
 

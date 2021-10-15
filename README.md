@@ -125,6 +125,10 @@ This applies to all classes delivered by Scssfold. Very convenient and yes - hea
 
 - [Display](src/modules/visibility/display.md)
 
+## Borders
+
+- [Border Radius](src/modules/borders/border-radius.md)
+
 # Why Scssfold?
 
 I initially wrote this framework for myself, but chose to make it public for others to use. I've always been a fan of the BEM methodology. However, over the years, it became more and more clear to me that BEM is not an all-or-nothing approach. Sticking to the BEM methodology strictly resulted in a lot of repetitive CSS, which had both performance and development drawbacks. This framework aims to solve the issue of writing the rough layout of an application; spacings, columns, containers etc. - responsively.

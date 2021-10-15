@@ -11,7 +11,7 @@
 @import '~scssfold/src/modules/flex/grow';
 ```
 
-## Overrides
+## Customizing
 
 Override the following variable before including the module. Each key is used for the class name and
 value for the css property.

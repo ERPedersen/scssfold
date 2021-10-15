@@ -23,7 +23,7 @@
 @import '~scssfold/src/modules/flex/order';
 ```
 
-## Overrides
+## Customizing
 
 Override the following variable before including the module. A class for each step from 1 through
 the provided value will be generated.

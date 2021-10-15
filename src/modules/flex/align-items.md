@@ -1,6 +1,6 @@
-## Align items
+# Align items
 
-### Class reference
+## Class reference
 
 | Class           | Properties               |
 | --------------- | :----------------------- |
@@ -10,13 +10,13 @@
 | .items-baseline | align-items: baseline;   |
 | .items-stretch  | align-items: stretch;    |
 
-### Install separately
+## Install separately
 
 ```scss
 @import '~scssfold/src/modules/flex/align-items';
 ```
 
-### Overrides
+## Customizing
 
 Override the following variable before including the module. Each key is used for the class name, and the value is used for the css property.
 

@@ -1,0 +1,41 @@
+@import '../../mixins/make-class';
+@import '../../mixins/responsive';
+@import '../../config';
+
+@if ($scssfold-module-borders == 1) {
+  @include responsive {
+    @each $name, $value in $scssfold-border-radiuses {
+      @include make-class(#{'rounded-'}#{$name}) {
+        border-radius: $value;
+      }
+      @include make-class(#{'rounded-t-'}#{$name}) {
+        border-top-left-radius: $value;
+        border-top-right-radius: $value;
+      }
+      @include make-class(#{'rounded-b-'}#{$name}) {
+        border-bottom-left-radius: $value;
+        border-bottom-right-radius: $value;
+      }
+      @include make-class(#{'rounded-l-'}#{$name}) {
+        border-top-left-radius: $value;
+        border-bottom-left-radius: $value;
+      }
+      @include make-class(#{'rounded-r-'}#{$name}) {
+        border-top-right-radius: $value;
+        border-bottom-right-radius: $value;
+      }
+      @include make-class(#{'rounded-tr-'}#{$name}) {
+        border-top-right-radius: $value;
+      }
+      @include make-class(#{'rounded-br-'}#{$name}) {
+        border-bottom-right-radius: $value;
+      }
+      @include make-class(#{'rounded-bl-'}#{$name}) {
+        border-bottom-left-radius: $value;
+      }
+      @include make-class(#{'rounded-tl-'}#{$name}) {
+        border-top-left-radius: $value;
+      }
+    }
+  }
+}

@@ -139,3 +139,15 @@ $scssfold-positions: (
   fixed,
   sticky
 ) !default;
+
+$scssfold-module-borders: 1 !default;
+
+$scssfold-border-radiuses: (
+  'none': 0,
+  'sm': 4px,
+  'md': 6px,
+  'lg': 8px,
+  'xl': 10px,
+  '2xl': 20px,
+  'full': 9999px,
+) !default;

@@ -10,7 +10,7 @@
 @import '~scssfold/src/modules/layout/container-fluid';
 ```
 
-## Overrides
+## Customizing
 
 Override the following variables before including the module.
 

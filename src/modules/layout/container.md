@@ -10,7 +10,7 @@
 @import '~scssfold/src/modules/layout/container';
 ```
 
-## Overrides
+## Customizing
 
 Override the following variables before including the module. `$scssfold-container-sizes` control
 the `max-width` of a container at a given breakdpoint.

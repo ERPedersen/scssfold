@@ -15,7 +15,7 @@
 @import '~scssfold/src/modules/visibility/display.scss';
 ```
 
-## Overrides
+## Customizing
 
 Override the following variables before including the module.
 

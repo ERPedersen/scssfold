@@ -11,7 +11,7 @@
 @import '~scssfold/src/modules/flex/shrink';
 ```
 
-## Overrides
+## Customizing
 
 Override the following variable before including the module. Each key is used for the class name and
 value of the css property.

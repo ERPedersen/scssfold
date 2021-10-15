@@ -13,7 +13,7 @@
 @import '~scssfold/src/modules/position/position.scss';
 ```
 
-## Overrides
+## Customizing
 
 Override the following variables before including the module.
 
