@@ -2,7 +2,6 @@
 
 [![npm][npm]][npm-url]
 [![node][node]][node-url]
-[![deps][deps]][deps-url]
 [![downloads][downloads]][downloads-url]
 [![contributors][contributors]][contributors-url]
 [![install-size][install-size]][install-size-url]
@@ -142,8 +141,6 @@ I still use BEM for component styling but try to make components as context-unaw
 [npm-url]: https://npmjs.com/package/scssfold
 [node]: https://img.shields.io/node/v/scssfold.svg
 [node-url]: https://nodejs.org
-[deps]: https://img.shields.io/david/erpedersen/scssfold.svg
-[deps-url]: https://david-dm.org/erpedersen/scssfold
 [tests]: https://img.shields.io/travis/erpedersen/scssfold/master.svg
 [tests-url]: https://travis-ci.org/erpedersen/scssfold
 [prs]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
