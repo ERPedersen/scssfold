@@ -106,6 +106,7 @@ $scssfold-flex-shrink: (0, 1) !default;
 $scssfold-flex-orders: 12 !default;
 
 $scssfold-margins: (
+  '0': 0,
   '1': 5px,
   '2': 10px,
   '3': 15px,
@@ -119,6 +120,7 @@ $scssfold-margins: (
 ) !default;
 
 $scssfold-paddings: (
+  '0': 0,
   '1': 5px,
   '2': 10px,
   '3': 15px,
