@@ -9,7 +9,7 @@
 
 # What is Scssfold?
 
-> ‼️ This repository is not maintained. Do not use it. It sucks
+> ‼️ This repository is not maintained. Do not use it. It sucks :-)
 
 Scssfold is a small utility-first CSS framework. Its purpose is to deliver reusable media-width aware
 utility classes, which speeds up the scaffolding process when developing user interfaces.
@@ -81,7 +81,7 @@ But what if we wanted the `display: flex` styling only to apply to screens that 
 </div>
 ```
 
-This applies to all classes delivered by Scssfold. Very convenient and yes - heavily inspired by [Tailwind CSS](https://tailwindcss.com/).
+This applies to all classes delivered by Scssfold.
 
 # Modules
 
