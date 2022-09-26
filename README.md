@@ -9,7 +9,7 @@
 
 # What is Scssfold?
 
-> ‼️ This repository is not maintained. Do not use it. It sucks :-)
+> ‼️ This repository is not maintained. Do not use it.
 
 Scssfold is a small utility-first CSS framework. Its purpose is to deliver reusable media-width aware
 utility classes, which speeds up the scaffolding process when developing user interfaces.
